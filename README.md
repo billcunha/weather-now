@@ -1,3 +1,11 @@
+# Weather Now
+
+This front-end app show some basics weather information from three predefined cities (hardcoded, in really). It use the free json api from [OpenWeather](https://openweathermap.org) to fetch the data.
+
+I decided to use React to make easy build components and, with this, a minimal organized project. With CSS, I put the SASS, but it was very little used.
+
+Below you find the default readme created by created-react-app.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
