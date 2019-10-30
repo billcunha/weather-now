@@ -5,8 +5,8 @@ import './index.scss';
 
 function Topbar() {
   return (
-    <div className="root">
-      <img src={logo} className="App-logo" alt="logo" />
+    <div className="base">
+      <img src={logo} className="app-logo" alt="logo" />
     </div>
   );
 }

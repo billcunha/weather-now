@@ -1,3 +1,6 @@
+@import "../variables";
+
 .content {
-    margin-top: 40px;
+    margin-top: $topbar-margin;
+    height: calc(100% - #{$topbar-margin});
 }

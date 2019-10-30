@@ -1,0 +1,101 @@
+.box {
+    width: 250px;
+    height: 220px;
+    box-shadow: 0 0 5px 2px #3333331A;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
+
+.box-clicked {
+    height: 270px;
+}
+
+.header, .footer, .temperature, .loading, .error, .btn-try {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header, .footer {
+    height: 40px;
+}
+
+.header {
+    color: #737C84;
+    border-bottom: 1px solid #EBEBEB;
+    font-size: 17px;
+}
+
+.loading, .error {
+    height: 100%;
+    flex-direction: column;
+}
+
+.error-msg {
+    color: #ED1946;
+    padding-bottom: 15px;
+}
+
+.btn-try {
+    color: #737C84;
+    border: 2px solid #737C84;
+    width: 100px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+.temperature {
+    height: 140px;
+    font-size: 90px;
+
+    .low {
+        color: #69A3FF;
+    }
+
+    .med {
+        color: #FF9632;
+    }
+
+    .high {
+        color: #ED1946;
+    }
+}
+
+.footer {
+    background-color: #F1F1F1;
+    border-radius: 0 0 5px 5px;
+    flex-direction: column;
+    color: #B4B4B4;
+    font-size: 9px;
+}
+
+.aditional {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 100%;
+    height: 50px;
+    color: #B4B4B4;
+    background-color: #F1F1F1;
+}
+
+.humidity, .pressure{
+    text-align: center;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    
+    span {
+        color: #737C84;
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    div:last-child {
+        color: #737C84;
+    }
+
+    div:first-child {
+        margin-bottom: 5px;
+    }
+}
